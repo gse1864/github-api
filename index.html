@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="githubAPI">
+    <head></head>
+    <body ng-controller="githubController">
+        
+        <input ng-model="searchText">
+        <button ng-click=$scope.getUserData()>Submit</button>
+        
+        {{user}}
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+        <script src="app.js"></script>
+        <script src="controller.js"></script>
+        <script src="service.js"></script>
+    </body>
+</html>
